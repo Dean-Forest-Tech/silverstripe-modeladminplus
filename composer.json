@@ -24,7 +24,7 @@
         "issues": "https://github.com/i-lateral/silverstripe-modeladminplus/issues"
     },
     "require": {
-        "silverstripe/framework": "^5",
+        "silverstripe/framework": "^5.2",
         "silverstripe/admin": "^2",
         "symbiote/silverstripe-gridfieldextensions": "^4",
         "colymba/gridfield-bulk-editing-tools": "^4",
