@@ -66,6 +66,10 @@
 
 * Additional fixes
 
+## 1.3.0
+
+* Switch to DFT namespace
+
 ## 2.0.0
 
 * SilverStripe 5.* branch
