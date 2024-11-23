@@ -73,3 +73,7 @@
 ## 2.0.0
 
 * SilverStripe 5.* branch
+
+## 2.1.0
+
+* Switch to DFT namespace
