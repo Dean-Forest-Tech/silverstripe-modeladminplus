@@ -65,3 +65,7 @@
 ## 1.2.5
 
 * Additional fixes
+
+## 1.3.0
+
+* Switch to DFT namespace
