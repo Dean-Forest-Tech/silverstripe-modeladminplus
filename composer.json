@@ -1,8 +1,8 @@
 {
-  "name": "i-lateral/silverstripe-modeladminplus",
+  "name": "dft/silverstripe-modeladminplus",
   "description": "Adds some extra features to a standard ModelAdmin field",
     "type": "silverstripe-vendormodule",
-    "homepage": "https://github.com/i-lateral/silverstripe-modeladminplus",
+    "homepage": "https://github.com/Dean-Forest-Tech/silverstripe-modeladminplus",
     "keywords": [
         "silverstripe",
         "admin",
@@ -12,22 +12,18 @@
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Morven Lewis-Everley",
-            "email": "morven@ilateral.co.uk"
-        },
-        {
-            "name": "Mark Anderson",
-            "email": "mark@ilateral.co.uk"
+            "name": "Dean Forest Tech",
+            "homepage": "https://dean-forest-tech.uk"
         }
     ],
     "support": {
-        "issues": "https://github.com/i-lateral/silverstripe-modeladminplus/issues"
+        "issues": "https://github.com/Dean-Forest-Tech/silverstripe-modeladminplus/issues"
     },
     "require": {
-        "silverstripe/framework": ">=4.3",
-        "silverstripe/admin": "~1.0",
-        "symbiote/silverstripe-gridfieldextensions": "~3.0",
-        "colymba/gridfield-bulk-editing-tools": "~3.0",
+        "silverstripe/framework": "^4.3",
+        "silverstripe/admin": "^1.0",
+        "symbiote/silverstripe-gridfieldextensions": "^3.0",
+        "colymba/gridfield-bulk-editing-tools": "^3.0",
         "tractorcow/silverstripe-autocomplete": "^4.0"
     },
     "require-dev": {
@@ -35,8 +31,8 @@
     },
     "autoload": {
         "psr-4": {
-            "ilateral\\SilverStripe\\ModelAdminPlus\\": "src/",
-            "ilateral\\SilverStripe\\ModelAdminPlus\\Tests\\": "tests/"
+            "DFT\\SilverStripe\\ModelAdminPlus\\": "src/",
+            "DFT\\SilverStripe\\ModelAdminPlus\\Tests\\": "tests/"
         }
     },
     "scripts": {
