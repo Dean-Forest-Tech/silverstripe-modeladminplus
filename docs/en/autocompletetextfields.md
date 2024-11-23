@@ -5,4 +5,4 @@ and in the DB to use an `AutoCompleteField` (for easier searching).
 
 If you wish to disable this functionality, you can use SilverStripe Config:
 
-    ilateral\SilverStripe\ModelAdminPlus.convert_to_autocomplete
+    DFT\SilverStripe\ModelAdminPlus.convert_to_autocomplete

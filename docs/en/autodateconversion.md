@@ -9,7 +9,7 @@ If you do not want `ModelAdminPlus` to automatically convert `DBDate`/`DBDateTim
 to a formatted column (default to `DBDate.Nice`), you can disable this via SilverStripe
 config, using:
 
-  `ilateral\SilverStripe\ModelAdminPlus.auto_convert_dates`
+  `DFT\SilverStripe\ModelAdminPlus.auto_convert_dates`
 
 ## Changing default date format
 
@@ -22,11 +22,11 @@ globally, or per instance called.
 You can change all instances of date re-format by setting the following SilverStripe config
 variable:
 
-  `ilateral\SilverStripe\ModelAdminPlus.default_date_type`
+  `DFT\SilverStripe\ModelAdminPlus.default_date_type`
 
 ### Changing date format per instance
 
 You can change specific instances of the date format every time you call the GridFieldDateFinder
 class, by using the following method:
 
-  `ilateral\SilverStripe\ModelAdminPlus::setDateType("newDateType")`
+  `DFT\SilverStripe\ModelAdminPlus::setDateType("newDateType")`

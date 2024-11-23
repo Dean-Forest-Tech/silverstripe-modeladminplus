@@ -5,7 +5,7 @@ To generate your own admin interface using it, simply have you custom `ModelAdmi
 extend `ModelAdminPlus` (instead of `ModelAdmin`). For example:
 
 ```php
-use ilateral\SilverStripe\ModelAdminPlus\ModelAdminPlus;
+use DFT\SilverStripe\ModelAdminPlus\ModelAdminPlus;
 
 class MyModelAdmin extends ModelAdminPlus
 {
