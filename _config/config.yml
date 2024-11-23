@@ -4,11 +4,11 @@ Name: modeladminplusconfig
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:
     - tractorcow/silverstripe-autocomplete:css/AutocompleteField.css
-    - i-lateral/silverstripe-modeladminplus:client/dist/css/admin.css
+    - dft/silverstripe-modeladminplus:client/dist/css/admin.css
   extra_requirements_javascript:
     - tractorcow/silverstripe-autocomplete:javascript/AutocompleteField.js
-    - i-lateral/silverstripe-modeladminplus:client/dist/js/admin.js
+    - dft/silverstripe-modeladminplus:client/dist/js/admin.js
 
 SilverStripe\ORM\DataObject:
   extensions:
-    - ilateral\SilverStripe\ModelAdminPlus\DataObjectExtension
+    - DFT\SilverStripe\ModelAdminPlus\DataObjectExtension
