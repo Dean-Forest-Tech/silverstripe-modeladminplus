@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\ModelAdminPlus;
+namespace DFT\SilverStripe\ModelAdminPlus;
 
 use SilverStripe\Forms\Form;
 use SilverStripe\ORM\SS_List;
@@ -11,15 +11,12 @@ use SilverStripe\View\Requirements;
 use Colymba\BulkManager\BulkManager;
 use SilverStripe\Core\Config\Config;
 use SilverStripe\Control\HTTPRequest;
-use SilverStripe\Core\Injector\Injector;
 use SilverStripe\Forms\GridField\GridField;
 use SilverStripe\Core\Manifest\ModuleManifest;
 use Colymba\BulkManager\BulkAction\UnlinkHandler;
 use SilverStripe\Forms\GridField\GridFieldConfig;
 use SilverStripe\Forms\GridField\GridFieldButtonRow;
 use SilverStripe\Forms\GridField\GridFieldPaginator;
-use ilateral\SilverStripe\ModelAdminPlus\SearchContext;
-use ilateral\SilverStripe\ModelAdminPlus\AutoCompleteField;
 use Symbiote\GridFieldExtensions\GridFieldConfigurablePaginator;
 use SilverStripe\Forms\GridField\GridFieldFilterHeader as SSGridFieldFilterHeader;
 
@@ -28,8 +25,6 @@ use SilverStripe\Forms\GridField\GridFieldFilterHeader as SSGridFieldFilterHeade
  * (such as submitting search results via a POST, saving the query
  * as a session and automatic Bulk Editing support)
  *
- * @author ilateral
- * @package ModelAdminPlus
  */
 abstract class ModelAdminPlus extends ModelAdmin
 {

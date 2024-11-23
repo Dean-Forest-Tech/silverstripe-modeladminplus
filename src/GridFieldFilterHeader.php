@@ -1,12 +1,11 @@
 <?php
 
-namespace ilateral\SilverStripe\ModelAdminPlus;
+namespace DFT\SilverStripe\ModelAdminPlus;
 
 use SilverStripe\ORM\SS_List;
 use SilverStripe\Control\Controller;
 use SilverStripe\Forms\GridField\GridField;
 use TractorCow\AutoComplete\AutoCompleteField;
-use ilateral\SilverStripe\ModelAdminPlus\SearchContext;
 use SilverStripe\ORM\Search\SearchContext as SSSearchContext;
 use SilverStripe\Forms\GridField\GridFieldFilterHeader as SSGridFieldFilterHeader;
 
