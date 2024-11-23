@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\ModelAdminPlus;
+namespace DFT\SilverStripe\ModelAdminPlus;
 
 use SilverStripe\ORM\SS_List;
 use SilverStripe\Core\ClassInfo;

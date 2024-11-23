@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\ModelAdminPlus;
+namespace DFT\SilverStripe\ModelAdminPlus;
 
 use SilverStripe\View\ViewableData;
 use SilverStripe\Forms\GridField\GridField;

@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\ModelAdminPlus;
+namespace DFT\SilverStripe\ModelAdminPlus;
 
 use SilverStripe\Core\ClassInfo;
 use SilverStripe\Core\Config\Config;

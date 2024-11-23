@@ -1,15 +1,14 @@
 <?php
 
-namespace ilateral\SilverStripe\ModelAdminPlus\Tests;
+namespace DFT\SilverStripe\ModelAdminPlus\Tests;
 
 use SilverStripe\Control\Session;
 use SilverStripe\Core\Config\Config;
 use SilverStripe\Dev\FunctionalTest;
 use SilverStripe\Control\HTTPRequest;
-use SilverStripe\Security\Permission;
-use ilateral\SilverStripe\ModelAdminPlus\Tests\Contact;
-use ilateral\SilverStripe\ModelAdminPlus\ModelAdminPlus;
-use ilateral\SilverStripe\ModelAdminPlus\Tests\ContactAdmin;
+use DFT\SilverStripe\ModelAdminPlus\Tests\Contact;
+use DFT\SilverStripe\ModelAdminPlus\ModelAdminPlus;
+use DFT\SilverStripe\ModelAdminPlus\Tests\ContactAdmin;
 
 class ModelAdminPlusTest extends FunctionalTest
 {

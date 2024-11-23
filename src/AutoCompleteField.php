@@ -1,6 +1,6 @@
 <?php
 
-namespace ilateral\SilverStripe\ModelAdminPlus;
+namespace DFT\SilverStripe\ModelAdminPlus;
 
 use SilverStripe\Forms\FormField;
 use TractorCow\AutoComplete\AutoCompleteField as TractorCowAutoCompleteField;
