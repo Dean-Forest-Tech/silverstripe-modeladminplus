@@ -48,7 +48,7 @@ If you want a more complex default search, you can also overwrite `SearchFilter:
 For Example:
 
 ```php
-class MySearchContext extends ilateral\SilverStripe\ModelAdminPlus\SearchContext
+class MySearchContext extends DFT\SilverStripe\ModelAdminPlus\SearchContext
 {
   // Only show Steve's items created in the last seven
   // days by default

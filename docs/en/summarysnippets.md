@@ -15,7 +15,7 @@ admin controller to view Products, Categories and Tags, I could create three sum
 snippets (one for each):
 
 ```php
-use ilateral\SilverStripe\ModelAdminPlus\ModelAdminSnippet;
+use DFT\SilverStripe\ModelAdminPlus\ModelAdminSnippet;
 
 class ProductSnippet extends ModelAdminSnippet
 {
@@ -81,7 +81,7 @@ By default, a snippet can be given a background that utilises a Bootstrap colour
 
 You can define this via the ss config variable:
 
-    ilateral\SilverStripe\ModelAdminPlus\ModelAdminPlus.background
+    DFT\SilverStripe\ModelAdminPlus\ModelAdminPlus.background
 
 ## Changing the text colour
 
@@ -90,7 +90,7 @@ A snippet can be given a font colour that utilises a Bootstrap colour class
 
 You can define this via the ss config variable:
 
-    ilateral\SilverStripe\ModelAdminPlus\ModelAdminPlus.text
+    DFT\SilverStripe\ModelAdminPlus\ModelAdminPlus.text
 
 ## Changing the order of apperance
 
@@ -99,4 +99,4 @@ loaded first).
 
 You can define this via the ss config variable:
 
-    ilateral\SilverStripe\ModelAdminPlus\ModelAdminPlus.priority
+    DFT\SilverStripe\ModelAdminPlus\ModelAdminPlus.priority
