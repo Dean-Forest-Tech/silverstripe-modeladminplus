@@ -1,5 +1,5 @@
 ---
-Name: modeladminplusconfig
+Name: dftmodeladminplusconfig
 ---
 SilverStripe\Admin\LeftAndMain:
   extra_requirements_css:

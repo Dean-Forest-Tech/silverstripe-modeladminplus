@@ -78,3 +78,7 @@
 
 * Switch to DFT namespace
 * Re-add SS4 support
+
+## 2.1.1
+
+* Fix some stupid errors

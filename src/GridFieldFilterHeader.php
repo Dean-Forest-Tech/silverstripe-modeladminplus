@@ -89,10 +89,9 @@ class GridFieldFilterHeader extends SSGridFieldFilterHeader
         return $results;
     }
 
-    public function setSearchContext(SSSearchContext $context): static
+    public function setSearchContext(SSSearchContext $context): self
     {
         $this->searchContext = $context;
-
         return $this;
     }
 }
