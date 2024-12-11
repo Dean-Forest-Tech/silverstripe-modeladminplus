@@ -77,3 +77,4 @@
 ## 2.1.0
 
 * Switch to DFT namespace
+* Re-add SS4 support
