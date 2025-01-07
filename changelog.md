@@ -82,3 +82,7 @@
 ## 2.1.1
 
 * Fix some stupid errors
+
+## 2.1.2
+
+* Fix error with GridFieldFilterHeader::setSearchContext return value
