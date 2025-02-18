@@ -86,3 +86,7 @@
 ## 2.1.2
 
 * Fix error with GridFieldFilterHeader::setSearchContext return value
+
+## 2.2.0
+
+* SS5 version of 2.1
